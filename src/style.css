@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: #333;
+    color:#fff;
+}
+
+.container {
+    margin:auto;
+    padding: 15px;
+}
+
+.page-header{
+    color:rgb(26, 163, 115);
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.group-header {
+    color: #0073FF;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.group-header:hover{
+    transform: rotateY(360deg); 
+}
+
+@keyframes fade-in{
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.list-group {
+    border: 2px solid rgb(57, 55, 55);
+    padding: 3px;
+    margin: 2px;
+}
+
+.list-item {
+    list-style-type: none;
+    padding: 4px;
+}
+
+.list-item:hover {
+    background-color: #6393B1;
+}
