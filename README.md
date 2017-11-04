@@ -1,4 +1,4 @@
-# Project Title
+# System Info
 
 An electron-forge app that show system statistics;
 
